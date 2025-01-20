@@ -1,0 +1,12 @@
+name: tiktok-save
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - yt-dlp>=2023.12.30
+    - requests>=2.31.0
+    - tqdm>=4.66.1
+    - python-dotenv>=1.0.0 

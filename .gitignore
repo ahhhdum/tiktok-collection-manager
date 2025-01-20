@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/*.json
+data/cookies.txt
+data/*.html
+logs/*.json
+logs/*.log
+downloads/
+tests/fixtures/*.html
+*.cookies.txt
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Project-specific
+data/collection_pages/
+*.mp4
+*.webm
+*.mov
+*.avi
+videos/
+thumbnails/
+
+# Sensitive Data
+cookies/
+*.cookie
+*.cookies
+*.session
+auth/
+credentials.json
+*credentials*.json
+*auth*.json
+
+# Cache and Temporary Data
+.cache/
+temp/
+tmp/
+*.temp
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and Debug Data
+debug/
+*.log
+log/
+logs/ 
